@@ -19,7 +19,7 @@ public class FirstHand
     public boolean checkFundingCriteria(final Child childDetails)
     {
         // Child must be 18 years of age or younger.
-        if (!(childDetails.getAge() >= 18))
+        if (!(childDetails.getAge() <= 18))
         {
             return false;
         }
