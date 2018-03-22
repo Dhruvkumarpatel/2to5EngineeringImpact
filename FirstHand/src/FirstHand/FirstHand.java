@@ -9,16 +9,17 @@ package FirstHand;
 public class FirstHand
 {
     /**
-     * Assume Child Class is already present with getAge(), isMentalState(), getRequest() method and all details.
+     * Assume Class is already present with getAge(), isMentalState(), getRequest() method and all details.
+	 * Assume class is already present.
      * Assume Request class is present to represent Application details and isRelatedToHealth(), isInsuredByOtherCoverage() methods.
      * 
      * @param childDetails {@link Child}
      * @return true if valid criteria otherwise return false.
      */
-    public boolean checkValidFundingCriteria(final Child childDetails)
+    public boolean checkFundingCriteria(final Child childDetails)
     {
         // Child must be 18 years of age or younger.
-        if (!(childDetails.getAge() <= 18))
+        if (!(childDetails.getAge() >= 18))
         {
             return false;
         }
