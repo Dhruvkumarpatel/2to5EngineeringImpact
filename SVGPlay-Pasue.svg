@@ -1,0 +1,13 @@
+<!cerner_2^5_2020>
+<html>
+<body>
+
+<svg height="210" width="400">
+  <path d="M150 0 V50 50" stroke="blue"  stroke-width="10" />
+  <path d="M170 0 V50 50" stroke="blue"  stroke-width="10" />
+  <path d="M100 10 V50 50 L125 30 z" stroke="blue" fill="blue" stroke-width="10" />
+  <text x="80" y="100" fill="Black"> Above are the play & pause icons!!</text>
+</svg>
+
+</body>
+</html>
