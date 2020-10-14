@@ -5,7 +5,7 @@ BST is defined as follows:
 
 The left subtree of a node contains only nodes with keys less than the node's key.
 The right subtree of a node contains only nodes with keys greater than the node's key.
-Both the left and right subtrees must also be binary search trees.
+Both the left and right subtrees must also be binary search trees
 
 This function validates that given binary tree is a binary search tree or not. It returns true if 
 given tree is binary search tree, false otherwise.
