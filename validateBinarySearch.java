@@ -1,4 +1,5 @@
 /**
+
 cerner_2^5_2020
 
 BST is defined as follows:
@@ -31,7 +32,7 @@ Output: false
 Explanation: The root node's value is 5 but its right child's value is 4.
  
 **/
-public boolean isBST(Node root)
+public boolean isBinarySearchTree(Node root)
 {
 	final Stack<Node> stack = new Stack();
 	
